@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "rootDir": "src",
+    "target": "ES2022",
+    "module": "Node16",
+    "allowSyntheticDefaultImports": true,
+    "outDir": "build"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.test.ts"]
+}
